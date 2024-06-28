@@ -51,7 +51,7 @@ function Recipes() {
   }
   return (
     <div>
-      <div id="recipes" className="relative  top-[100vh] w-full flex items-center bg-[#000000] justify-center pt-10 pb-5 px-0 md:px-10">
+      <div id="recipes" className="relative top-[100vh] w-full flex items-center bg-[#000000] justify-center pt-10 pb-5 px-0 md:px-10">
         <SearchBar
           placeholder="eg. Cake, Vegan, Chicken"
           handleInputChange={handleChange}
@@ -60,9 +60,9 @@ function Recipes() {
       </div>
       {recipes?.length > 0 ? (
         <>
-          <div className="w-full mt-32 flex justify-center">
+          <div className="w-full flex justify-center">
             <div className="max-w-screen-lg w-full px-4 lg:px-10 py-10">
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+              <div className="mt-[100vh] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
                 {recipes?.map((item, index) => (
                   <RecipeCards recipe={item} key={index} />
                 ))}
