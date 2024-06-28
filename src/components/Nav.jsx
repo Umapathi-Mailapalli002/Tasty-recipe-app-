@@ -1,7 +1,6 @@
 import React from 'react'
 import LOGO from "../images/logo.png";
 import { useMediaQuery } from "react-responsive";
-import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 
 function Nav() {
@@ -54,7 +53,7 @@ function Nav() {
               <li>
                 <a href="/"
                   
-                  className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
                   aria-current="page"
                 >
                   Home
@@ -84,7 +83,7 @@ function Nav() {
         <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
             <a href="/"
-              className="block py-2 px-3 text-white active:bg-blue-700 rounded md:bg-transparent active:md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+              className="block py-2 px-3 md:hover:text-blue-500 text-white rounded md:bg-transparent md:p-0 dark:text-white"
               aria-current="page"
             >
               Home
