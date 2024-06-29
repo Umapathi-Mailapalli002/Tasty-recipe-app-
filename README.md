@@ -22,6 +22,10 @@ Excited to share my latest project: a Recipe Finder App built with React! üçΩÔ∏
 - CSS3 (including Flexbox and Media Queries)
 - Edamam API (for recipe data)
 
+##### Deployement
+-[Demo](https://tasty002.netlify.app/)
+
+
 ## Installation
 
 1. Clone the repository:
