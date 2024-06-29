@@ -30,7 +30,7 @@ Excited to share my latest project: a Recipe Finder App built with React! üçΩÔ∏
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Umapathi-Mailapalli002/Tasty-recipe-
+   git clone https://github.com/Umapathi-Mailapalli002/Tasty-recipe-.git
    ```
 
 2. Navigate into the project directory:
