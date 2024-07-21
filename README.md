@@ -19,7 +19,7 @@ Excited to share my latest project: a Recipe Finder App built with React! üçΩÔ∏
 - React
 - JavaScript (ES6+)
 - HTML5
-- CSS3 (including Flexbox and Media Queries)
+- Tailwind css
 - Edamam API (for recipe data)
 
 ##### Deployement
